@@ -1,4 +1,5 @@
 ##常用命令
+```js
 git init                                                  # 初始化本地git仓库（创建新仓库）
 git status                                                # 查看当前版本状态（是否修改）
 git clone git+ssh://git@192.168.53.168/VT.git             # clone远程仓库
@@ -8,7 +9,7 @@ git rm xxx                                                # 删除index中的文
 git branch                                                # 显示本地分支
 git checkout -b master_copy                               # 从当前分支创建新分支master_copy并检出
 git reset --hard HEAD                                     # 将当前版本重置为HEAD（通常用于merge失败回退）
-
+```
 ##命令
 git init                                                  # 初始化本地git仓库（创建新仓库）
 git config --global user.name "xxx"                       # 配置用户名
